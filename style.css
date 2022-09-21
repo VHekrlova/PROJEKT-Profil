@@ -4,9 +4,6 @@ html { box-sizing: border-box; }
 
 /*
 	BARVY
-	czechitas  #b92e81
-	pozadi     #bdc3c7
-	tmava      #31363b
 	delitka    #3f464d
 	portfolio  #e74c3c
 	facebook   #3b5998
@@ -16,4 +13,37 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+}
+
+.profil {
+	width: 300px;
+	position: relative;
+	background-color: #31363b;
+	margin: 20px;
+	box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.856);
+	}
+
+.profil .foto {
+	width: 300px;
+}
+
+.profil .logo {
+	border-radius: 50%;
+	background-color: #b92e81; 
+	position: absolute;
+	top: 170px;
+	left: 230px;
+	box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.856);
+}
+
+.obsah {
+	margin: 20px;
+}
+
+.obsah .jmeno {
+	color: #fff;
+}
+
+.obsah p {
+	color: #fff;
 }
