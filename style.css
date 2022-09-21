@@ -16,34 +16,39 @@ body {
 }
 
 .profil {
-	width: 300px;
+	width: 250px;
 	position: relative;
 	background-color: #31363b;
 	margin: 20px;
-	box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.856);
+	box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.856);
 	}
 
 .profil .foto {
-	width: 300px;
+	width: 250px;
 }
 
 .profil .logo {
 	border-radius: 50%;
 	background-color: #b92e81; 
 	position: absolute;
-	top: 170px;
-	left: 230px;
-	box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.856);
+	top: 140px;
+	left: 180px;
+	box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.856);
 }
 
 .obsah {
-	margin: 20px;
+	margin: 27px 20px 20px 20px;
 }
 
 .obsah .jmeno {
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+	letter-spacing: 1px;
 }
 
 .obsah p {
 	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
 }
