@@ -24,7 +24,7 @@ body {
 	}
 
 .profil .foto {
-	width: 250px;
+	width: 100%;
 }
 
 .profil .logo {
@@ -51,4 +51,33 @@ body {
 	color: #fff;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
+}
+
+.odkazy {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+}
+
+.odkazy a {
+	text-decoration: none;
+}
+
+.portfolio {
+	flex-basis: 100%;
+	border: 1px solid red;
+	text-align: center;
+}
+
+.facebook {
+	flex-basis: 50%;
+	border: 1px solid red;
+	text-align: center;
+}
+
+.twitter {
+	flex-basis: 50%;
+	border: 1px solid red;
+	text-align: center;
 }
