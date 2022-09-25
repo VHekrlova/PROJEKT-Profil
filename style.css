@@ -2,14 +2,6 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/*
-	BARVY
-	delitka    #3f464d
-	portfolio  #e74c3c
-	facebook   #3b5998
-	twitter    #1da1f2
-*/
-
 
 body {
 	background-color: #bdc3c7;
@@ -62,22 +54,45 @@ body {
 
 .odkazy a {
 	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
 }
 
 .portfolio {
 	flex-basis: 100%;
-	border: 1px solid red;
+	border-top: 1px solid #3f464d;
 	text-align: center;
+	padding: 7px;
+}
+
+.portfolio:hover {
+	background-color: #e74c3c;
+	transition: 0.3s;
 }
 
 .facebook {
 	flex-basis: 50%;
-	border: 1px solid red;
+	border: 1px solid #3f464d;
 	text-align: center;
+	padding: 7px;
+}
+
+.facebook:hover {
+	background-color: #3b5998;
+	transition: 0.3s;
 }
 
 .twitter {
 	flex-basis: 50%;
-	border: 1px solid red;
+	border-top: 1px solid #3f464d;
 	text-align: center;
+	padding: 7px;
 }
+
+.twitter:hover {
+	background-color: #1da1f2;
+	transition: 0.3s;
+}
+
